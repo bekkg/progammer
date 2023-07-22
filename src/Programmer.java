@@ -33,7 +33,9 @@ public class Programmer {
         this.id = id;
     }
 
-    public   void metage ()       {          }
+    public   void metage ()       {
+        System.out.println("salam ! ");
+    }
 
     public   void  metage ( int age )       {
         System.out.println(age +" лет " + getName());
